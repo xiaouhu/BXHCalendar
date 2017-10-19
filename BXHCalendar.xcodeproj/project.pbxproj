@@ -13,6 +13,15 @@
 		A625FF9C1F95ED67001A0705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A625FF9B1F95ED67001A0705 /* Assets.xcassets */; };
 		A625FF9F1F95ED67001A0705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A625FF9D1F95ED67001A0705 /* LaunchScreen.storyboard */; };
 		A625FFA21F95ED67001A0705 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A625FFA11F95ED67001A0705 /* main.m */; };
+		A66922341F96FB38005BB55C /* BXHCalendarDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = A669222A1F96FB38005BB55C /* BXHCalendarDayView.m */; };
+		A66922351F96FB38005BB55C /* BXHCalendarLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A669222C1F96FB38005BB55C /* BXHCalendarLayout.m */; };
+		A66922361F96FB38005BB55C /* BXHCalendarMonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = A669222E1F96FB38005BB55C /* BXHCalendarMonthView.m */; };
+		A66922371F96FB38005BB55C /* BXHCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A66922311F96FB38005BB55C /* BXHCalendarView.m */; };
+		A66922381F96FB38005BB55C /* NSDate+BXHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A66922331F96FB38005BB55C /* NSDate+BXHCategory.m */; };
+		A669223B1F9704A8005BB55C /* BXHCalenderIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = A669223A1F9704A8005BB55C /* BXHCalenderIndexPath.m */; };
+		A669223E1F971F13005BB55C /* NSDate+BXHCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = A669223D1F971F13005BB55C /* NSDate+BXHCalendar.m */; };
+		A66C74E81F9835A700884A51 /* BXHWeekendView.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C74E71F9835A700884A51 /* BXHWeekendView.m */; };
+		A66C74EB1F983F5D00884A51 /* BXHCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C74EA1F983F5D00884A51 /* BXHCalendarManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,25 @@
 		A625FF9E1F95ED67001A0705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A625FFA01F95ED67001A0705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A625FFA11F95ED67001A0705 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A66922291F96FB38005BB55C /* BXHCalendarDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXHCalendarDayView.h; sourceTree = "<group>"; };
+		A669222A1F96FB38005BB55C /* BXHCalendarDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXHCalendarDayView.m; sourceTree = "<group>"; };
+		A669222B1F96FB38005BB55C /* BXHCalendarLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXHCalendarLayout.h; sourceTree = "<group>"; };
+		A669222C1F96FB38005BB55C /* BXHCalendarLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXHCalendarLayout.m; sourceTree = "<group>"; };
+		A669222D1F96FB38005BB55C /* BXHCalendarMonthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXHCalendarMonthView.h; sourceTree = "<group>"; };
+		A669222E1F96FB38005BB55C /* BXHCalendarMonthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXHCalendarMonthView.m; sourceTree = "<group>"; };
+		A669222F1F96FB38005BB55C /* BXHCalendarSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXHCalendarSupport.h; sourceTree = "<group>"; };
+		A66922301F96FB38005BB55C /* BXHCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXHCalendarView.h; sourceTree = "<group>"; };
+		A66922311F96FB38005BB55C /* BXHCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXHCalendarView.m; sourceTree = "<group>"; };
+		A66922321F96FB38005BB55C /* NSDate+BXHCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BXHCategory.h"; sourceTree = "<group>"; };
+		A66922331F96FB38005BB55C /* NSDate+BXHCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BXHCategory.m"; sourceTree = "<group>"; };
+		A66922391F9704A8005BB55C /* BXHCalenderIndexPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BXHCalenderIndexPath.h; sourceTree = "<group>"; };
+		A669223A1F9704A8005BB55C /* BXHCalenderIndexPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BXHCalenderIndexPath.m; sourceTree = "<group>"; };
+		A669223C1F971F13005BB55C /* NSDate+BXHCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+BXHCalendar.h"; sourceTree = "<group>"; };
+		A669223D1F971F13005BB55C /* NSDate+BXHCalendar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BXHCalendar.m"; sourceTree = "<group>"; };
+		A66C74E61F9835A700884A51 /* BXHWeekendView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BXHWeekendView.h; sourceTree = "<group>"; };
+		A66C74E71F9835A700884A51 /* BXHWeekendView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BXHWeekendView.m; sourceTree = "<group>"; };
+		A66C74E91F983F5D00884A51 /* BXHCalendarManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BXHCalendarManager.h; sourceTree = "<group>"; };
+		A66C74EA1F983F5D00884A51 /* BXHCalendarManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BXHCalendarManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 		A625FF911F95ED67001A0705 /* BXHCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				A66922281F96FB38005BB55C /* BXHCalendar */,
 				A625FF921F95ED67001A0705 /* AppDelegate.h */,
 				A625FF931F95ED67001A0705 /* AppDelegate.m */,
 				A625FF951F95ED67001A0705 /* ViewController.h */,
@@ -67,6 +96,32 @@
 				A625FF9D1F95ED67001A0705 /* LaunchScreen.storyboard */,
 				A625FFA01F95ED67001A0705 /* Info.plist */,
 				A625FFA11F95ED67001A0705 /* main.m */,
+			);
+			path = BXHCalendar;
+			sourceTree = "<group>";
+		};
+		A66922281F96FB38005BB55C /* BXHCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				A66922301F96FB38005BB55C /* BXHCalendarView.h */,
+				A66922311F96FB38005BB55C /* BXHCalendarView.m */,
+				A66C74E61F9835A700884A51 /* BXHWeekendView.h */,
+				A66C74E71F9835A700884A51 /* BXHWeekendView.m */,
+				A669222D1F96FB38005BB55C /* BXHCalendarMonthView.h */,
+				A669222E1F96FB38005BB55C /* BXHCalendarMonthView.m */,
+				A66922291F96FB38005BB55C /* BXHCalendarDayView.h */,
+				A669222A1F96FB38005BB55C /* BXHCalendarDayView.m */,
+				A669222B1F96FB38005BB55C /* BXHCalendarLayout.h */,
+				A669222C1F96FB38005BB55C /* BXHCalendarLayout.m */,
+				A66922391F9704A8005BB55C /* BXHCalenderIndexPath.h */,
+				A669223A1F9704A8005BB55C /* BXHCalenderIndexPath.m */,
+				A66C74E91F983F5D00884A51 /* BXHCalendarManager.h */,
+				A66C74EA1F983F5D00884A51 /* BXHCalendarManager.m */,
+				A669222F1F96FB38005BB55C /* BXHCalendarSupport.h */,
+				A66922321F96FB38005BB55C /* NSDate+BXHCategory.h */,
+				A66922331F96FB38005BB55C /* NSDate+BXHCategory.m */,
+				A669223C1F971F13005BB55C /* NSDate+BXHCalendar.h */,
+				A669223D1F971F13005BB55C /* NSDate+BXHCalendar.m */,
 			);
 			path = BXHCalendar;
 			sourceTree = "<group>";
@@ -102,7 +157,7 @@
 				TargetAttributes = {
 					A625FF8E1F95ED67001A0705 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -142,9 +197,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A66922341F96FB38005BB55C /* BXHCalendarDayView.m in Sources */,
+				A669223E1F971F13005BB55C /* NSDate+BXHCalendar.m in Sources */,
+				A66C74EB1F983F5D00884A51 /* BXHCalendarManager.m in Sources */,
+				A66922381F96FB38005BB55C /* NSDate+BXHCategory.m in Sources */,
 				A625FF971F95ED67001A0705 /* ViewController.m in Sources */,
 				A625FFA21F95ED67001A0705 /* main.m in Sources */,
+				A66C74E81F9835A700884A51 /* BXHWeekendView.m in Sources */,
 				A625FF941F95ED67001A0705 /* AppDelegate.m in Sources */,
+				A66922361F96FB38005BB55C /* BXHCalendarMonthView.m in Sources */,
+				A66922371F96FB38005BB55C /* BXHCalendarView.m in Sources */,
+				A66922351F96FB38005BB55C /* BXHCalendarLayout.m in Sources */,
+				A669223B1F9704A8005BB55C /* BXHCalenderIndexPath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,11 +342,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yuan zhang (U68KT4E258)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = QFP84G5G54;
 				INFOPLIST_FILE = BXHCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Com.SZY.live.BXHCalendar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onlineEducationParents.shengzheyuan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "de0641b6-7987-4950-845e-5caddf4228c4";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -291,11 +359,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yuan zhang (U68KT4E258)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = QFP84G5G54;
 				INFOPLIST_FILE = BXHCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Com.SZY.live.BXHCalendar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onlineEducationParents.shengzheyuan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "de0641b6-7987-4950-845e-5caddf4228c4";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
